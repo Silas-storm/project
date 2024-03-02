@@ -1,0 +1,514 @@
+body
+{
+  background : #0c2461;
+  color: white;
+}
+/*--------------------------------------------------------------------
+      barre de menu
+---------------------------------------------------------------------*/
+.bg-light
+{
+ background : #d802de !important;
+}
+
+.navbar-brand{
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+  }
+.nav-link :hover {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+
+  /*--------------------------------------------------
+     PROFIL 
+ -----------------------------------------------------------*/
+ 
+ .member__card__picture
+ {
+     position: relative;
+    background-color: #0c2461;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+ }
+
+
+  /*--------------------------------------------------
+     notre topic
+ -----------------------------------------------------------*/
+.topic-body
+{
+   background : #d802de !important;
+   margin: 20px 0;
+   padding: 20px;
+   border-radius: 20px; 
+   box-shadow: 5px 5px 15px rgba(11,204,231,0.7); 
+}
+
+.topic_body_h1
+{
+  margin-bottom: 3px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
+
+}
+
+.topic_body_contenu
+{
+  margin: 20px 0;
+}
+.topic_footer
+{
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap; /*ceci c'est pour bien
+   mettre le texte en place quand ce dernier ne dispose plus d'espace lors de la réduction*/
+
+  font-size: 1rem;
+  padding_top: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
+}
+
+.topic_footer_cat
+{
+   background:#00d2d3;
+   color: white;
+   border-radius: 20px;
+   padding: 0 10px;
+}
+
+.topic_body_action_btn
+{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+.topic_action_btn{
+  
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid yellow;
+  text-decoration: none;
+  box-shadow: 5px 5px 15px rgba(11,204,231,0.7);
+  align-items: center;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #cf1ae9;
+  color: white;
+  transition: all .5s ease;
+}
+
+.topic_action_btn: hover .topic_action_btn: focus{
+  box-shadow: none;
+  color: white; 
+}
+
+.topic_action_btn i {
+ margin-right: 2px; 
+}
+
+
+ .topic_action_btn i.bi-pencil-fill { 
+  background: #1bbbdd;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.topic_action_btn i.bi-trash { 
+  background: #fa6666;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.topic_action_btn i.bi-send-check-fill { 
+  background: #24d53b;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.topic_body_zone_commentaire
+{
+  margin: 20px 0 0 0;
+}
+
+.topic_com_body_textarea
+{
+  display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #0c2461;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    min-height: 200px;
+    outline: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px rgba(11,204,231,0.7);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.topic_com_body_textarea::placeholder
+{
+  color: #e4a8ca;
+}
+
+.topic_com_footer_btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.topic_commentaire_body
+{
+    background : #d802de !important;
+   margin: 10px 0;
+   padding: 20px;
+   border-radius: 20px; 
+   box-shadow: 5px 5px 15px rgba(11,204,231,0.7);
+
+}
+.topic_commentaire_titre
+{
+ 
+ margin-bottom: 3px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
+}
+
+.topic_zone_commentaire_erreur
+{
+  background: #ff6b6b;
+  color: white;
+  border-radius: 6px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/*--------------------------------------------------
+     Listes des topics 
+ -----------------------------------------------------------*/
+
+.list_topic_body
+{
+    background : #d802de !important;
+   margin: 10px 0;
+   padding: 20px;
+   border-radius: 20px; 
+   box-shadow: 5px 5px 15px rgba(11,204,231,0.7);
+
+}
+
+.list_topic_h1
+{
+  
+   margin-bottom: 3px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
+}
+
+.list_topic_sujet
+{
+    background : #0c2461;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+   padding: 10px;
+}
+
+.list_topic_link
+{
+  color: white;
+  text-decoration: none;
+
+}
+
+.list_topic_link:hover,..list_topic_link:hover{
+       color: white;      
+}
+
+.list_topic_footer{
+    display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap; /*ceci c'est pour bien
+   mettre le texte en place quand ce dernier ne dispose plus d'espace lors de la réduction*/
+
+  font-size: 1rem;
+  padding_top: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
+  margin-top: 10px ; 
+ 
+}
+
+/*--------------------------------------------------
+     Forum (LISTE DES CATEGORIES) 
+ -----------------------------------------------------------*/
+
+.forum_body
+{
+
+  background : #d802de !important;
+   margin: 10px 0;
+   padding: 20px;
+   border-radius: 20px; 
+   box-shadow: 5px 5px 15px rgba(11,204,231,0.7);
+  
+}
+
+.forum_h1
+{
+  
+   margin-bottom: 3px;
+  padding: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
+}
+
+.list_cat_forum{
+
+  background : #0c2461;
+  color: white;
+  border-radius: 8px;
+  margin-top: 20px;
+  padding: 10px; 
+
+}
+
+.list_forum_link
+{
+  color: white;
+  text-decoration: none;
+
+}
+
+.list_forum_link:hover,..list_forum_link:hover{
+       color: white;      
+}
+.list_footer_forum
+{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap; /*ceci c'est pour bien
+    mettre le texte en place quand ce dernier ne dispose plus d'espace lors de la réduction*/
+
+    font-size: 1rem;
+    padding_top: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6) ;
+    border-top: 1px solid rgba(255, 255, 255, 0.6) ;
+    margin-top: 10px ; 
+}
+
+.forum_body_btn{
+  display: flex;
+  margin: 20px 0;
+
+}
+
+.forum_btn_create
+{
+    display: flex;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid yellow;
+  text-decoration: none;
+  box-shadow: 5px 5px 15px rgba(11,204,231,0.7);
+  align-items: center;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #cf1ae9;
+  color: white;
+  transition: all .5s ease;
+}
+
+
+.forum_btn_create: hover .forum_btn_create: focus{
+  box-shadow: none;
+  color: white; 
+}
+
+.forum_btn_create i {
+ margin-right: 2px; 
+}
+
+
+ .forum_btn_create i.btn_create { 
+  background: #feca57;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+/*--------------------------------------------------------------------
+          membres
+---------------------------------------------------------------------*/
+
+.memberBody{
+ 
+    background: #d802de;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 15px 0 0 0;
+    margin: 10px 10px 4%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 6px 2px rgb(0 0 0 / 5%);
+    transition: all 0.2s ease-in;
+
+}
+
+.member__card__avatar {
+    position: relative;
+   text-align: center;
+}
+
+.member__card__pseudo{
+    
+    position: relative;
+    font-weight: bold;
+    color: floralwhite;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.member__card__link{
+        font-size: .8rem;
+    color: #bdc3c7;
+    text-align: center;
+    text-decoration: none;
+}
+.member__card__link.link{
+  text-decoration: none !important;
+
+}
+/*--------------------------------------------------------------------
+             Accueil
+---------------------------------------------------------------------*/
+ 
+.AccueilBody{
+  text-align: center;
+   background: #d802de;
+    width: 99%;
+    justify-content: center;
+ align-items: center;
+    position: relative;
+    z-index: 1;
+    padding: 15px 0 0 0;
+    margin: 10px 10px 4%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 6px 2px rgb(0 0 0 / 5%);
+    transition: all 0.2s ease-in;
+  
+}
+
+/*--------------------------------------------------------------------
+             profil
+---------------------------------------------------------------------*/
+
+.prof__banniere__ava
+{
+    background: #d802de;
+    width: 99%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    padding: 15px 0 0 0;
+    margin: 10px 10px 4%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 2px 6px 2px rgb(0 0 0 / 5%);
+    transition: all 0.2s ease-in;
+
+}
+.prof__banniere__ava__body
+{
+       display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.prof__banniere__ava__picture
+{
+     position: relative;
+    background-color: #0c2461;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.prof__banniere__ava__info
+{
+  
+    margin: 10px auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.prof__banniere__info__1
+{
+  font-weight: bold;
+    font-size: 1.2rem;
+}
+.prof__banniere__info__2{
+  font-weight: bold;
+   font-size: 1.2rem;
+}
+.prof__banniere__info__3{
+   font-size: 1.0rem;
+   font-weight: bold;
+}
+
+.prof__banniere__info__4{
+   font-size: 0.9rem;
+   font-weight: bold;
+}
